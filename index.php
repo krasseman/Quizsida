@@ -7,14 +7,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>USA Quiz</title>
 
     <style>
+    body h1 {
+         text-align: center;
+    }
 
+  
     </style>
 </head>
 <body>
+    
+    <h1> Har du vad som krävs för att bli medborgare i USA? </h1>
+    
     <div id = "wrapper">
+
 <?php
     echo "
     <form action ='process.php' method='post' id= 'quizForm' id='1'>
@@ -24,6 +32,13 @@
      $myQuestionOne
      $myQuestionTwo  
      $myQuestionThree 
+     $myQuestionFour
+     $myQuestionFive
+     $myQuestionSix
+     $myQuestionSeven
+     $myQuestionEight
+     $myQuestionNine
+     $myQuestionTen
           
             </ol>
         <input type='submit' value='Submit Quiz' />
